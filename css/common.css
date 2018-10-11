@@ -1,0 +1,195 @@
+.top-head .nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  height: 70px;
+  line-height: 70px;
+  background-color: transparent;
+  transition: all 200ms linear;
+}
+.top-head .nav-box {
+  max-width: 1200px;
+  min-width: 750px;
+  margin: 0 auto;
+  font-size: 0;
+}
+.top-head .nav-left {
+  float: left;
+  line-height: 70px;
+}
+.top-head .nav-left > a > img {
+  display: inline-block;
+  height: 44px;
+  vertical-align: middle;
+  width: auto;
+}
+.top-head .nav-right {
+  position: relative;
+  float: right;
+}
+.top-head .nav-right .nav-list {
+  font-size: 0;
+}
+.top-head .nav-right .nav-list .nav-item {
+  position: relative;
+  float: left;
+  font-size: 16px;
+  color: #fff;
+}
+.top-head .nav-right .nav-list .nav-link {
+  padding: 0 26px;
+  height: 30px;
+  line-height: 30px;
+  display: inline-block;
+  color: #fff;
+  cursor: pointer;
+}
+.top-head .nav-right .nav-list .nav-item:last-child .nav-link {
+  display: inline-block;
+  padding: 0 15px;
+  border-radius: 4px;
+  border: solid 1px #ffffff;
+}
+.top-head .nav-right .nav-list .nav-item:last-child:hover .nav-link {
+  background-color: #a8c5ff;
+}
+.top-head .nav-right .nav-list .nav-item:nth-of-type(2):hover .nav-hid {
+  display: block;
+}
+.top-head .nav-right .nav-bar {
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  height: 2px;
+  width: 84px;
+  transition: all 420ms ease-out;
+  background-color: #fff;
+}
+.top-head .nav-right .nav-hid {
+  display: none;
+  position: absolute;
+  top: 68px;
+  left: 0;
+  height: auto;
+  z-index: 10000;
+}
+.top-head .nav-right .nav-hid .hid-list {
+  overflow: hidden;
+  width: 100px;
+  padding-bottom: 22px;
+  background-color: #fff;
+}
+.top-head .nav-right .nav-hid .hid-list .hid-item {
+  margin-top: 29px;
+  line-height: 1;
+  text-align: center;
+}
+.top-head .nav-right .nav-hid .hid-list .hid-item .hid-link {
+  display: block;
+  font-size: 16px;
+  line-height: 1;
+  color: #666;
+  cursor: pointer;
+}
+.top-head .nav-right .nav-hid:before {
+  content: '';
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-color: transparent transparent #fff transparent;
+  border-width: 10px;
+  border-style: solid;
+}
+.title-main {
+  text-align: center;
+  height: 105px;
+  line-height: 105px;
+  vertical-align: middle;
+}
+.title-main .img-left {
+  display: inline-block;
+  width: 123px;
+  height: auto;
+  vertical-align: middle;
+}
+.title-main .title-box {
+  display: inline-block;
+  margin: 0 58px;
+  vertical-align: middle;
+}
+.title-main .title-box .title-text {
+  display: block;
+  line-height: 1.5;
+  font-size: 35px;
+  font-weight: normal;
+}
+.title-main .title-text {
+  display: inline-block;
+  line-height: 1;
+  margin: 0 58px;
+  font-size: 35px;
+  font-weight: normal;
+  vertical-align: middle;
+}
+.title-main .img-right {
+  display: inline-block;
+  width: 123px;
+  height: auto;
+  vertical-align: middle;
+}
+.title-des {
+  display: inline-block;
+  width: 100%;
+  margin-top: 18px;
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+}
+.contact-us {
+  height: 395px;
+  box-sizing: border-box;
+  background-image: url(../img/img_21.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.contact-us .part-box {
+  min-width: 1200px;
+  text-align: center;
+  padding-top: 60px;
+}
+.contact-us .contact-title {
+  color: #fff;
+}
+.contact-us .contact-title .title-zh {
+  font-size: 30px;
+  font-weight: normal;
+}
+.contact-us .contact-title .title-en {
+  font-size: 24px;
+  font-weight: normal;
+}
+.contact-us .contact-des {
+  margin-top: 30px;
+  font-size: 24px;
+  color: #fff;
+}
+.contact-us .submit-xuqiu {
+  display: inline-block;
+  margin-top: 54px;
+}
+.contact-us .submit-xuqiu .submit-link {
+  display: inline-block;
+  width: 188px;
+  height: 48px;
+  border-radius: 2px;
+  font-size: 24px;
+  text-align: center;
+  line-height: 48px;
+  color: #fff;
+  background-color: #fcc12a;
+  cursor: pointer;
+}
