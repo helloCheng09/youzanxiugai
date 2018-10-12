@@ -105,8 +105,8 @@
 }
 .title-main {
   text-align: center;
-  height: 105px;
-  line-height: 105px;
+  height: 80px;
+  line-height: 80px;
   vertical-align: middle;
 }
 .title-main .img-left {
@@ -190,6 +190,51 @@
   text-align: center;
   line-height: 48px;
   color: #fff;
+  transition: background-color 100ms linear;
   background-color: #fcc12a;
   cursor: pointer;
+}
+.contact-us .submit-xuqiu .submit-link:hover {
+  background-color: #a8c5ff;
+}
+.footer {
+  height: 350px;
+  padding-top: 50px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.footer .part-box {
+  width: 1200px;
+  margin: 0 auto;
+}
+.footer .part-box > div {
+  display: inline-block;
+  margin: 0 70px;
+  vertical-align: top;
+  font-size: 14px;
+  color: #666;
+}
+.footer .part-box > div .title {
+  margin-bottom: 18px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.footer .part-box > div .footer-link {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #666;
+}
+.footer .col-five .wechat .footer-link {
+  margin-bottom: 24px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.footer .col-five img {
+  display: block;
+  width: 100px;
+  transition: all 200ms linear;
+  cursor: pointer;
+}
+.footer .col-five img:hover {
+  width: 180px;
 }

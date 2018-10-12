@@ -118,8 +118,8 @@
 // 主要内容头部
 .title-main {
     text-align: center;
-    height: 105px;
-    line-height: 105px;
+    height: 80px;
+    line-height: 80px;
     vertical-align: middle;
     .img-left {
         display: inline-block;
@@ -204,13 +204,59 @@
             text-align: center;
             line-height: 48px;
             color: #fff;
+            transition: background-color 100ms linear;
             background-color: #fcc12a;
             cursor: pointer;
+        }
+        .submit-link:hover {
+            background-color: #a8c5ff;
         }
     }
 }
 
 // footer
 .footer {
-    
+    height: 350px;
+    padding-top: 50px;
+    box-sizing: border-box;
+    background-color: #fff;
+    .part-box {
+        width: 1200px;
+        margin: 0 auto;
+        >div {
+            display: inline-block;
+            margin: 0 70px;
+            vertical-align: top;
+            font-size: 14px;
+            color: #666;
+            .title {
+                margin-bottom: 18px;
+                font-size: 16px;
+                font-weight: bold;
+            }
+            .footer-link {
+                font-size: 14px;
+                line-height: 1.8;
+                color: #666;
+            }
+        }
+    }
+    .col-five {
+        .wechat {
+            .footer-link {
+                margin-bottom: 24px;
+                font-size: 16px;
+                font-weight: bold;
+            }
+        }
+        img {
+            display: block;
+            width: 100px;
+            transition: all 200ms linear;
+            cursor: pointer;
+        }
+        img:hover {
+            width: 180px;
+        }
+    }
 }
