@@ -105,8 +105,7 @@
 }
 .title-main {
   text-align: center;
-  height: 80px;
-  line-height: 80px;
+  height: auto;
   vertical-align: middle;
 }
 .title-main .img-left {
