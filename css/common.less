@@ -215,7 +215,7 @@
 
 // footer
 .footer {
-    height: 350px;
+    height: 250px;
     padding-top: 50px;
     box-sizing: border-box;
     background-color: #fff;
@@ -258,4 +258,13 @@
             width: 180px;
         }
     }
+}
+
+// 多行省略
+.line-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
 }

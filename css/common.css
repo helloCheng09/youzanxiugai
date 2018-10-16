@@ -197,7 +197,7 @@
   background-color: #a8c5ff;
 }
 .footer {
-  height: 350px;
+  height: 250px;
   padding-top: 50px;
   box-sizing: border-box;
   background-color: #fff;
@@ -236,4 +236,11 @@
 }
 .footer .col-five img:hover {
   width: 180px;
+}
+.line-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }

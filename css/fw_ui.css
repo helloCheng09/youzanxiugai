@@ -1,0 +1,227 @@
+@import "reset.css";
+@import "common.css";
+body {
+  font: 16px "PingFang-SC-Medium";
+  color: #333;
+}
+#fw_ui {
+  min-height: 100vh;
+}
+#fw_ui .top-head .fw-banner {
+  position: relative;
+  overflow: hidden;
+  min-width: 1200px;
+  height: 590px;
+}
+#fw_ui .top-head .fw-banner .s-con-banner .swiper-wrapper {
+  position: relative;
+  line-height: 590px;
+  text-align: center;
+}
+#fw_ui .top-head .fw-banner .s-con-banner .banner-img {
+  height: 590px;
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+#fw_ui .top-head .fw-banner .s-con-banner .swiper-pagination-bullet {
+  width: 80px;
+  height: 6px;
+  background-color: #ffffff;
+  border-radius: 3px;
+  opacity: 0.38;
+}
+#fw_ui .top-head .fw-banner .s-con-banner .swiper-pagination-bullet-active {
+  width: 80px;
+  height: 6px;
+  background-color: #f7faff;
+  border-radius: 3px;
+  opacity: 1;
+}
+#fw_ui .main-content .con-part-one {
+  padding-top: 100px;
+  padding-bottom: 80px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+#fw_ui .main-content .con-part-one .part-box {
+  width: 1200px;
+  margin: 0 auto;
+}
+#fw_ui .main-content .con-part-one .one-des {
+  font-size: 18px;
+  text-align: center;
+  text-indent: 2em;
+  color: #666;
+}
+#fw_ui .main-content .con-part-one .con-title .title-des {
+  text-align: center;
+  text-indent: 2em;
+  line-height: 1.7;
+  font-size: 18px;
+}
+#fw_ui .main-content .con-part-one ul {
+  display: inline-block;
+  margin-top: 70px;
+  width: 100%;
+  text-align: center;
+}
+#fw_ui .main-content .con-part-one .one-item {
+  display: inline-block;
+  vertical-align: middle;
+}
+#fw_ui .main-content .con-part-one .one-item .one-img {
+  display: block;
+  width: 200px;
+  height: auto;
+  margin: 0 auto;
+}
+#fw_ui .main-content .con-part-one .one-item dt {
+  font-size: 28px;
+  line-height: 1.5;
+  text-align: center;
+}
+#fw_ui .main-content .con-part-one .one-item dd {
+  display: inline-block;
+  width: 324px;
+  margin: 20px 10px 0;
+  height: 72px;
+  font-size: 18px;
+  text-align: center;
+  color: #666;
+}
+#fw_ui .main-content .con-part-two {
+  padding-top: 20px;
+  padding-bottom: 60px;
+  box-sizing: border-box;
+  background-color: #ffff;
+}
+#fw_ui .main-content .con-part-two .part-box {
+  width: 1200px;
+  margin: 0 auto;
+}
+#fw_ui .main-content .con-part-two .con-main {
+  display: inline-block;
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+}
+#fw_ui .main-content .con-part-two .two-item {
+  cursor: pointer;
+}
+#fw_ui .main-content .con-part-two .two-left {
+  display: inline-block;
+  width: 522px;
+  vertical-align: middle;
+}
+#fw_ui .main-content .con-part-two .two-left dt {
+  text-align: left;
+}
+#fw_ui .main-content .con-part-two .two-left dt img {
+  display: inline-block;
+  width: 39px;
+  height: auto;
+  vertical-align: middle;
+}
+#fw_ui .main-content .con-part-two .two-left dt p {
+  display: inline-block;
+  font-size: 28px;
+  vertical-align: middle;
+}
+#fw_ui .main-content .con-part-two .two-left dd {
+  height: 79px;
+  margin: 50px 0;
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #666;
+}
+#fw_ui .main-content .con-part-two .two-left .contact-link {
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+  font-size: 18px;
+  color: #2d72fc;
+}
+#fw_ui .main-content .con-part-two .two-right {
+  display: inline-block;
+  vertical-align: middle;
+}
+#fw_ui .main-content .con-part-two .two-right img {
+  display: inline-block;
+  width: 477px;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+#fw_ui .main-content .con-part-four {
+  padding-top: 50px;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  background-color: #fafbfd;
+}
+#fw_ui .main-content .con-part-four .part-box {
+  width: 1200px;
+  padding-bottom: 90px;
+  margin: 0 auto;
+  background-image: url(../img/img_12.png);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+#fw_ui .main-content .con-part-four .four-left {
+  display: inline-block;
+  width: 523px;
+  padding-top: 20px;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+#fw_ui .main-content .con-part-four .con-title .title-main {
+  text-align: left;
+}
+#fw_ui .main-content .con-part-four .con-title .title-main .title-text {
+  display: inline-block;
+  font-size: 36px;
+  font-weight: normal;
+  margin: 0;
+  color: #333;
+}
+#fw_ui .main-content .con-part-four .con-title .title-main .img-right {
+  display: inline-block;
+  width: 123px;
+  margin-left: 25px;
+  height: auto;
+}
+#fw_ui .main-content .con-part-four .four-title {
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+  margin-top: 30px;
+  font-size: 28px;
+  font-weight: normal;
+  color: #333;
+}
+#fw_ui .main-content .con-part-four .four-des {
+  display: inline-block;
+  margin-top: 28px;
+  font-size: 18px;
+  color: #666;
+  line-height: 1.5;
+  text-align: left;
+}
+#fw_ui .main-content .con-part-four .four-code {
+  float: left;
+  margin-top: 10px;
+  width: 113px;
+  text-align: left;
+}
+#fw_ui .main-content .con-part-four .four-right {
+  display: inline-block;
+  margin-left: 50px;
+  vertical-align: middle;
+}
+#fw_ui .main-content .con-part-four .four-right .four-img {
+  display: inline-block;
+  width: 600px;
+  border-color: #fafbfd;
+}

@@ -1,0 +1,184 @@
+@import "reset.css";
+@import "common.css";
+body {
+  font: 16px "PingFang-SC-Medium";
+  color: #333;
+}
+#fw_game {
+  min-height: 100vh;
+}
+#fw_game .top-head .fw-banner {
+  position: relative;
+  overflow: hidden;
+  min-width: 1200px;
+  height: 590px;
+}
+#fw_game .top-head .fw-banner .s-con-banner .swiper-wrapper {
+  position: relative;
+  line-height: 590px;
+  text-align: center;
+}
+#fw_game .top-head .fw-banner .s-con-banner .banner-img {
+  height: 590px;
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+#fw_game .top-head .fw-banner .s-con-banner .swiper-pagination-bullet {
+  width: 80px;
+  height: 6px;
+  background-color: #ffffff;
+  border-radius: 3px;
+  opacity: 0.38;
+}
+#fw_game .top-head .fw-banner .s-con-banner .swiper-pagination-bullet-active {
+  width: 80px;
+  height: 6px;
+  background-color: #f7faff;
+  border-radius: 3px;
+  opacity: 1;
+}
+#fw_game .main-content .con-part-one {
+  padding-top: 107px;
+  padding-bottom: 60px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+#fw_game .main-content .con-part-one .part-box {
+  width: 1200px;
+  margin: 0 auto;
+}
+#fw_game .main-content .con-part-one .con-main {
+  display: inline-block;
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 0;
+}
+#fw_game .main-content .con-part-one .con-main ul {
+  margin-top: 40px;
+}
+#fw_game .main-content .con-part-one .one-des {
+  font-size: 18px;
+  text-align: left;
+  text-indent: 2em;
+  color: #666;
+}
+#fw_game .main-content .con-part-one .one-item {
+  display: inline-block;
+  width: 365px;
+  margin: 0 15px;
+  margin-top: 80px;
+  padding-bottom: 40px;
+  transition: all 300ms linear;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  border: solid 1px #ffffff;
+  cursor: pointer;
+}
+#fw_game .main-content .con-part-one .one-item .one-link {
+  position: relative;
+}
+#fw_game .main-content .con-part-one .one-item .one-img {
+  display: inline-block;
+  width: 100px;
+  height: auto;
+  margin-top: -50px;
+  text-align: center;
+}
+#fw_game .main-content .con-part-one .one-item dt {
+  font-size: 24px;
+  line-height: 3;
+}
+#fw_game .main-content .con-part-one .one-item dd {
+  width: 300px;
+  font-size: 18px;
+  text-align: center;
+  color: #666;
+  line-height: 1.5;
+}
+#fw_game .main-content .con-part-one .one-item:nth-of-type(1):hover {
+  box-shadow: 0px 0px 8px 0px #43c5b9;
+}
+#fw_game .main-content .con-part-one .one-item:nth-of-type(2):hover {
+  box-shadow: 0px 0px 8px 0px #efce4a;
+}
+#fw_game .main-content .con-part-one .one-item:nth-of-type(3):hover {
+  box-shadow: 0px 0px 8px 0px #6c9dff;
+}
+#fw_game .main-content .con-part-one .one-item:nth-of-type(4):hover {
+  box-shadow: 0px 0px 8px 0px #00c1de;
+}
+#fw_game .main-content .con-part-one .one-item:nth-of-type(5):hover {
+  box-shadow: 0px 0px 8px 0px #8674d3;
+}
+#fw_game .main-content .con-part-one .one-item:nth-of-type(6):hover {
+  box-shadow: 0px 0px 8px 0px #d75a4a;
+}
+#fw_game .main-content .con-part-two {
+  height: 710px;
+  padding-top: 75px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+#fw_game .main-content .con-part-two .part-box {
+  width: 1200px;
+  margin: 0 auto;
+}
+#fw_game .main-content .con-part-two .title-des:last-of-type {
+  text-align: left;
+  text-indent: 2em;
+  line-height: 1.5;
+}
+#fw_game .main-content .con-part-two .con-main {
+  display: inline-block;
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+}
+#fw_game .main-content .con-part-two ul {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 0;
+}
+#fw_game .main-content .con-part-two .two-item {
+  display: inline-block;
+  width: 550px;
+  margin: 20px 22px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  border: solid 1px #ffffff;
+}
+#fw_game .main-content .con-part-two .two-link img {
+  display: inline-block;
+  width: 60px;
+  padding: 30px;
+  margin: 0 auto;
+  height: auto;
+  vertical-align: middle;
+}
+#fw_game .main-content .con-part-two .two-link .two-right {
+  display: inline-block;
+  vertical-align: middle;
+}
+#fw_game .main-content .con-part-two .two-link dt {
+  margin: 17px 0;
+  font-size: 24px;
+  color: #333;
+}
+#fw_game .main-content .con-part-two .two-link dd {
+  overflow: hidden;
+  height: 54px;
+  width: 335px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  -webkit-line-clamp: 2;
+  color: #666;
+  cursor: pointer;
+}

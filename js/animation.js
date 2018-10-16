@@ -39,11 +39,26 @@
             $(".nav").css("backgroundColor", "transparent")
         }
     }
-    
+// console.log( $(window).height())
+    function codeHover() {
+        $(".wechat img").hover(function () {
+            $(".footer").height("300")
+            var bottom =  $(window).scrollTop()
+            $('html,body').animate({
+                scrollTop: bottom + 100 + "px"
+            }, 500);
+        }, function () {
+            $(".footer").height("200")
+        })
+    }
+
     // 调用
     navInit()
-    $(window,document).scroll(function(){
+    $(window, document).scroll(function () {
         navInit()
     })
+    codeHover()
+
+
 
 }())

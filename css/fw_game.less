@@ -1,0 +1,195 @@
+@import "reset.css";
+@import "common.css";
+body {
+    font: 16px "PingFang-SC-Medium";
+    color: #333;
+}
+
+#fw_game {
+    min-height: 100vh;
+    .top-head {
+        .fw-banner {
+            position: relative;
+            overflow: hidden;
+            min-width: 1200px;
+            height: 590px;
+            .s-con-banner {
+                .swiper-wrapper {
+                    position: relative;
+                    line-height: 590px;
+                    text-align: center;
+                }
+                .banner-img {
+                    height: 590px;
+                    background-size: cover;
+                    background-position: 50%;
+                    background-repeat: no-repeat;
+                }
+                .swiper-pagination-bullet {
+                    width: 80px;
+                    height: 6px;
+                    background-color: #ffffff;
+                    border-radius: 3px;
+                    opacity: 0.38;
+                }
+                .swiper-pagination-bullet-active {
+                    width: 80px;
+                    height: 6px;
+                    background-color: #f7faff;
+                    border-radius: 3px;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+    .main-content {
+        .con-part-one {
+            padding-top: 107px;
+            padding-bottom: 60px;
+            box-sizing: border-box;
+            background-color: #fff;
+            .part-box {
+                width: 1200px;
+                margin: 0 auto;
+            }
+            .con-main {
+                display: inline-block;
+                width: 100%;
+                margin-top: 20px;
+                text-align: center;
+                font-size: 0;
+                ul {
+                    margin-top: 40px;
+                }
+            }
+            .one-des {
+                font-size: 18px;
+                text-align: left;
+                text-indent: 2em;
+                color: #666;
+            }
+            .one-item {
+                display: inline-block;
+                width: 365px;
+                margin: 0 15px;
+                margin-top: 80px;
+                padding-bottom: 40px;
+                transition: all 300ms linear;
+                box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15);
+                border-radius: 5px;
+                border: solid 1px #ffffff;
+                cursor: pointer;
+                .one-link {
+                    position: relative;
+                }
+                .one-img {
+                    display: inline-block;
+                    width: 100px;
+                    height: auto;
+                    margin-top: -50px;
+                    text-align: center;
+                }
+                dt {
+                    font-size: 24px;
+                    line-height: 3;
+                }
+                dd {
+                    width: 300px;
+                    font-size: 18px;
+                    text-align: center;
+                    color: #666;
+                    line-height: 1.5;
+                }
+            }
+            .one-item:nth-of-type(1):hover {
+                box-shadow: 0px 0px 8px 0px rgb(67, 197, 185);
+            }
+            .one-item:nth-of-type(2):hover {
+                box-shadow: 0px 0px 8px 0px rgb(239, 206, 74);
+            }
+            .one-item:nth-of-type(3):hover {
+                box-shadow: 0px 0px 8px 0px rgb(108, 157, 255);
+            }
+            .one-item:nth-of-type(4):hover {
+                box-shadow: 0px 0px 8px 0px rgb(0, 193, 222);
+            }
+            .one-item:nth-of-type(5):hover {
+                box-shadow: 0px 0px 8px 0px rgb(134, 116, 211);
+            }
+            .one-item:nth-of-type(6):hover {
+                box-shadow: 0px 0px 8px 0px rgb(215, 90, 74);
+            }
+        }
+        .con-part-two {
+            height: 710px;
+            padding-top: 75px;
+            box-sizing: border-box;
+            background-color: #fff;
+            .part-box {
+                width: 1200px;
+                margin: 0 auto;
+            }
+            .title-des:last-of-type {
+                text-align: left;
+                text-indent: 2em;
+                line-height: 1.5;
+            }
+            .con-main {
+                display: inline-block;
+                width: 100%;
+                margin-top: 20px;
+                text-align: center;
+            }
+            ul {
+                position: relative;
+                overflow: hidden;
+                display: inline-block;
+                text-align: center;
+                width: 100%;
+                margin: 0 auto;
+                font-size: 0;
+            }
+            .two-item {
+                display: inline-block;
+                width: 550px;
+                margin: 20px 22px;
+                box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.08);
+                border-radius: 5px;
+                border: solid 1px #ffffff;
+            }
+            .two-item:hover {
+            }
+            .two-link {
+                img {
+                    display: inline-block;
+                    width: 60px;
+                    padding: 30px;
+                    margin: 0 auto;
+                    height: auto;
+                    vertical-align: middle;
+                }
+                .two-right {
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+                dt {
+                    margin: 17px 0;
+                    font-size: 24px;
+                    color: #333;
+                }
+                dd {
+                    overflow: hidden;
+                    height: 54px;
+                    width: 335px;
+                    margin: 0 auto;
+                    font-size: 18px;
+                    line-height: 1.5;
+                    margin-bottom: 30px;
+                    -webkit-line-clamp: 2;
+                    color: #666;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
