@@ -1,0 +1,146 @@
+@import "reset.css";
+@import "common.css";
+body {
+    font: 16px "PingFang-SC-Medium";
+    color: #333;
+}
+
+#aboutUs {
+    min-height: 100vh;
+    .top-head {
+        .fw-banner {
+            position: relative;
+            overflow: hidden;
+            min-width: 1200px;
+            height: 590px;
+            .s-con-banner {
+                .swiper-wrapper {
+                    position: relative;
+                    line-height: 520px;
+                    text-align: center;
+                }
+                .banner-img {
+                    height: 520px;
+                    background-size: cover;
+                    background-position: 50%;
+                    background-repeat: no-repeat;
+                }
+                .swiper-pagination-bullet {
+                    width: 80px;
+                    height: 6px;
+                    background-color: #ffffff;
+                    border-radius: 3px;
+                    opacity: 0.38;
+                }
+                .swiper-pagination-bullet-active {
+                    width: 80px;
+                    height: 6px;
+                    background-color: #f7faff;
+                    border-radius: 3px;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+    .main-content {
+        .con-part-one {
+            padding-top: 107px;
+            padding-bottom: 60px;
+            box-sizing: border-box;
+            background-color: #fff;
+            background-image: url(../img/img_20.png);
+            background-size: 100% auto;
+            background-position: 0 0;
+            .part-box {
+                width: 1200px;
+                margin: 0 auto;
+            }
+            .one-title {
+                font-size: 36px;
+                line-height: 4;
+                text-align: center;
+            }
+            .one-text {
+                display: inline-block;
+                text-indent: 2em;
+                font-size: 18px;
+                line-height: 1.5;
+                margin-bottom: 20px;
+            }
+        }
+        .con-part-two {
+            padding-top: 75px;
+            padding-bottom: 60px;
+            box-sizing: border-box;
+            background-color: #fff;
+            .part-box {
+                width: 1200px;
+                margin: 0 auto;
+            }
+            .title-main {
+                margin-bottom: 40px;
+            }
+            .con-main {
+                display: inline-block;
+                width: 100%;
+                margin-top: 20px;
+                text-align: center;
+            }
+            .two-img-show {
+                position: relative;
+                height: 460px;
+                .two-img {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    background-position: 0 0;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                }
+            }
+        }
+        .con-part-thr {
+            padding-bottom: 40px;
+            .part-box{
+                width: 1200px;
+                margin: 0 auto;
+            }
+            .con-main {
+                font-size: 0;
+            }
+            
+            .thr-left {
+                display: inline-block;
+                width: 50%;
+                padding: 0 100px;
+                box-sizing: border-box;
+                line-height: 2;
+                vertical-align: middle;
+                .thr-l-title {
+                    font-size: 36px;
+                    display: inline-block;
+                    font-weight: normal;
+                    margin: 14px 8px;
+                }
+                p {
+                    display: inline-block;
+                    font-size: 18px;
+                }
+            }
+            .thr-right {
+                display: inline-block;
+                width: 50%;
+                height: 300px;
+                vertical-align: middle;
+                padding-right: 100px;
+                box-sizing: border-box;
+                .map-box {
+                    display: inline-block;
+                    width: 100%;
+                    height: 100%;
+                    background-color: #f7f7f7;
+                }
+            }
+        }
+    }
+}

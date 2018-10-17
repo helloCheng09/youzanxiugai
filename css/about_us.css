@@ -1,0 +1,138 @@
+@import "reset.css";
+@import "common.css";
+body {
+  font: 16px "PingFang-SC-Medium";
+  color: #333;
+}
+#aboutUs {
+  min-height: 100vh;
+}
+#aboutUs .top-head .fw-banner {
+  position: relative;
+  overflow: hidden;
+  min-width: 1200px;
+  height: 590px;
+}
+#aboutUs .top-head .fw-banner .s-con-banner .swiper-wrapper {
+  position: relative;
+  line-height: 520px;
+  text-align: center;
+}
+#aboutUs .top-head .fw-banner .s-con-banner .banner-img {
+  height: 520px;
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+#aboutUs .top-head .fw-banner .s-con-banner .swiper-pagination-bullet {
+  width: 80px;
+  height: 6px;
+  background-color: #ffffff;
+  border-radius: 3px;
+  opacity: 0.38;
+}
+#aboutUs .top-head .fw-banner .s-con-banner .swiper-pagination-bullet-active {
+  width: 80px;
+  height: 6px;
+  background-color: #f7faff;
+  border-radius: 3px;
+  opacity: 1;
+}
+#aboutUs .main-content .con-part-one {
+  padding-top: 107px;
+  padding-bottom: 60px;
+  box-sizing: border-box;
+  background-color: #fff;
+  background-image: url(../img/img_20.png);
+  background-size: 100% auto;
+  background-position: 0 0;
+}
+#aboutUs .main-content .con-part-one .part-box {
+  width: 1200px;
+  margin: 0 auto;
+}
+#aboutUs .main-content .con-part-one .one-title {
+  font-size: 36px;
+  line-height: 4;
+  text-align: center;
+}
+#aboutUs .main-content .con-part-one .one-text {
+  display: inline-block;
+  text-indent: 2em;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+#aboutUs .main-content .con-part-two {
+  padding-top: 75px;
+  padding-bottom: 60px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+#aboutUs .main-content .con-part-two .part-box {
+  width: 1200px;
+  margin: 0 auto;
+}
+#aboutUs .main-content .con-part-two .title-main {
+  margin-bottom: 40px;
+}
+#aboutUs .main-content .con-part-two .con-main {
+  display: inline-block;
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+}
+#aboutUs .main-content .con-part-two .two-img-show {
+  position: relative;
+  height: 460px;
+}
+#aboutUs .main-content .con-part-two .two-img-show .two-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#aboutUs .main-content .con-part-thr {
+  padding-bottom: 40px;
+}
+#aboutUs .main-content .con-part-thr .part-box {
+  width: 1200px;
+  margin: 0 auto;
+}
+#aboutUs .main-content .con-part-thr .con-main {
+  font-size: 0;
+}
+#aboutUs .main-content .con-part-thr .thr-left {
+  display: inline-block;
+  width: 50%;
+  padding: 0 100px;
+  box-sizing: border-box;
+  line-height: 2;
+  vertical-align: middle;
+}
+#aboutUs .main-content .con-part-thr .thr-left .thr-l-title {
+  font-size: 36px;
+  display: inline-block;
+  font-weight: normal;
+  margin: 14px 8px;
+}
+#aboutUs .main-content .con-part-thr .thr-left p {
+  display: inline-block;
+  font-size: 18px;
+}
+#aboutUs .main-content .con-part-thr .thr-right {
+  display: inline-block;
+  width: 50%;
+  height: 300px;
+  vertical-align: middle;
+  padding-right: 100px;
+  box-sizing: border-box;
+}
+#aboutUs .main-content .con-part-thr .thr-right .map-box {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-color: #f7f7f7;
+}
